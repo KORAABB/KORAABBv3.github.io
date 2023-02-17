@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At Spacey's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700|Varela+Round:400"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+</head>
+
+<body onscroll="SecondFunction()" id="atspacey-order-food-website">
+
+
+    <div class="container">
+        <div class="navbar">
+
+            <nav>
+                <ul>
+                    <li><a href="#background-first" class="km-home">Home</a></li>
+                    <li><a href="foods.html" target="_blank" class="km-foods">Foods</a></li>
+                    <li><a href="desserts.html" target="_blank" class="km-desserts">Desserts</a></li>
+                    <li><a href="#contact" class="km-contact">Contact</a></li>
+                    <li><a href="login.html" target="_blank" class="km-log">Log In</a></li>
+                    <li><a href="signup.html" target="_blank" class="km-sign">Sign Up</a></li>
+                </ul>
+            </nav>
+            <button onclick="myFunction()" id="dark"><i class="fa-solid fa-moon" id="moon-icon"></i></button>
+
+        </div>
+    </div>
+
+    <div class="container-fluid" id="background-first">
+        <div class="row">
+            <div  id="txt-first">
+                <h1>Hungry?<br>Order Your Delicious <br>Meal At Spacey's</h1>
+                <h2 id="Pick-h2">Pick What You Wanna Eat</h2>
+                <p>Our Most Classic Products</p>
+            </div>
+        </div>
+
+
+
+        <div class="km-food-search" id="food-search">
+
+            <select id="food-dropdown">
+                <option value="item1">Classic Burger</option>
+                <option value="item2">Chicken Burger</option>
+                <option value="item3">Pizza Margarita</option>
+                <option value="item4">Ham Sandwich</option>
+            </select>
+            <select id="drinks-dropdown">
+                <option value="item1">Coca-Cola</option>
+                <option value="item2">Fanta Exotic</option>
+                <option value="item3">Sprite</option>
+            </select>
+
+
+            <input type="text" placeholder="Delivery Location" id="loca">
+
+            <button id="order">Order</button>
+
+        </div>
+    </div>
+
+
+    <h3 id="about">Something To Learn About Us:</h3>
+    <div class="container-fluid">
+        <div class="row" id="about-us"  >
+            <div class="col-6 col-xs-6" id="about1">
+                If you want to know more about us I don't know what to tell except, we are or at least tend to be a really serious 
+                company or bussiness however you wanna call it. This bussiness idea first came from a joke between friends while
+                playing poker and chess at the creator's house. It later was transformed into an actual profitting bussiness idea 
+                in 2023. 
+            </div>
+            <div class="col-6 col-xs-6" id="about2">The creator of this bussiness is a guy called Korab Musa. He's a 18 year old
+                trying to get inside the industry of selling and marketing. <strong>Fun Fact</strong> Korab <em>himself</em>
+                created and participated in the design of our company's website, along with a bunch of other guys from our 
+                developer's team. To know more about the creator, check the social links down below 
+            </div>
+            <div class="col-6 col-xs-6" id="about3">
+                Another <strong>Fun Fact</strong> is that there is a quite a few bugs and glitches on our website, but it was also
+                done in quite a short ammount of time without asking anyone for help just the creator along with his team. We fully
+                understand your frustration with some of our feautures such as a half and half responsive website to make it harder
+                on <strong>mobile devices</strong> so we request you
+                to be patient with us as customers until we reach the next stage of updating our website
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <hr class="hr">
+
+
+    <div class="container-fluid" id="reason">
+        <h2>A Reason To Buy From Us</h2>
+        <div class="km-reason">Now you might ask why exactly am I supposed to buy food <br>
+            from you? We'll tell you exactly why! <b>First</b> of all we got the <br>
+            most affordable prices in town. <b>Second</b> our food delivery, unlike the others,
+            free in the entire country and on top of that, it's quite fast. And finally, the <b>Third</b>
+            reason to buy from us, is our offer to get a full refund on your first three orders
+            if you didn't enjoy our food.</div>
+        <div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Jump To </h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="foods.html">Foods</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+                        <li><a href="#Pick-h2">Drinks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col" id="contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Phone: +38344634584</li>
+                        <li>Email: korabmusa1@gmail.com</li>
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Our social links</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/korab.musa.31"><i class="fab fa-facebook-f"></i></a>
+                        <a href=><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kor__ab/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="Homescript.js"></script>
+</body>
+
+</html>
